@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{D8931382-52E3-EB57-E2F8-26E490746E9A}") = "Magic Math", "Assembly-CSharp.csproj", "{98FB813F-FACF-27D1-C42F-A9D5C42AFC8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98FB813F-FACF-27D1-C42F-A9D5C42AFC8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FB813F-FACF-27D1-C42F-A9D5C42AFC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FB813F-FACF-27D1-C42F-A9D5C42AFC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FB813F-FACF-27D1-C42F-A9D5C42AFC8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
