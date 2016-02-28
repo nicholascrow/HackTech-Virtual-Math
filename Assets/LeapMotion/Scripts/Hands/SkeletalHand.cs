@@ -14,8 +14,12 @@ using Leap;
  * The hand can have game objects for the palm, wrist and forearm, as well as fingers.
  */
 public class SkeletalHand : HandModel {
-
-  protected const float PALM_CENTER_OFFSET = 0.0150f;
+  public override ModelType HandModelType {
+    get {
+      return ModelType.Graphics;
+    }
+  }
+  protected const float PALM_CENTER_OFFSET = 0.015f;
 
   void Start() {
     // Ignore collisions with self.
@@ -30,15 +34,18 @@ public class SkeletalHand : HandModel {
 
   /** Updates the hand and its component parts by setting their positions and rotations. */
   public override void UpdateHand() {
+
     SetPositions();
   }
 
   protected Vector3 GetPalmCenter() {
-    Vector3 offset = PALM_CENTER_OFFSET * Vector3.Scale(GetPalmDirection(), transform.localScale);
+    Vector3 offset = PALM_CENTER_OFFSET * Vector3.Scale(GetPalmDirection(), transform.lossyScale);
     return GetPalmPosition() - offset;
   }
 
   protected void SetPositions() {
+    Debug.Log("SkeletalHand.SetPositions()");
+
     for (int f = 0; f < fingers.Length; ++f) {
       if (fingers[f] != null)
         fingers[f].UpdateFinger();
