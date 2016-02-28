@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{A7E20D37-7855-9EC7-F593-55D20431E1ED}") = "HackTech-Virtual-Math", "Assembly-CSharp-firstpass.csproj", "{97B39BF7-B0F2-A6D3-E97C-4D7F39882AE6}"
+EndProject
+Project("{A7E20D37-7855-9EC7-F593-55D20431E1ED}") = "HackTech-Virtual-Math", "Assembly-CSharp.csproj", "{C2AEC1E5-E2E8-81EC-020E-8E8027274906}"
+EndProject
+Project("{A7E20D37-7855-9EC7-F593-55D20431E1ED}") = "HackTech-Virtual-Math", "Assembly-CSharp-Editor.csproj", "{7B53D638-97E0-50F3-AFF7-69B39F970C3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97B39BF7-B0F2-A6D3-E97C-4D7F39882AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B39BF7-B0F2-A6D3-E97C-4D7F39882AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B39BF7-B0F2-A6D3-E97C-4D7F39882AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B39BF7-B0F2-A6D3-E97C-4D7F39882AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2AEC1E5-E2E8-81EC-020E-8E8027274906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2AEC1E5-E2E8-81EC-020E-8E8027274906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2AEC1E5-E2E8-81EC-020E-8E8027274906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2AEC1E5-E2E8-81EC-020E-8E8027274906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B53D638-97E0-50F3-AFF7-69B39F970C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B53D638-97E0-50F3-AFF7-69B39F970C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B53D638-97E0-50F3-AFF7-69B39F970C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B53D638-97E0-50F3-AFF7-69B39F970C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
